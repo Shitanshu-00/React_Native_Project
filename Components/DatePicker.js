@@ -18,6 +18,10 @@ const DatePicker = ({disable}) => {
     setDatePickerVisibility(true);
   };
 
+  const hideDatePicker = () =>{
+    setDatePickerVisibility(false);
+  }
+
   const handleConfirm = value => {
     console.warn('A date has been picked: ', date);
     setBirthDate(value);
