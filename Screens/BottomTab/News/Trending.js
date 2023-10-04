@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Trending() {
   return (
-    <View>
+    <View style={AllStyles.container}>
       <Text>Trending</Text>
     </View>
   )
